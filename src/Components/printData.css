@@ -1,0 +1,49 @@
+.character-card {
+    display: flex;
+    border: solid rgb(155, 151, 151) 2px;
+    box-shadow: rgba(186, 33, 33, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 8px;
+    width: 36em;
+    height: 15em;
+    gap: 20px;
+  }
+
+  .name {
+    padding: 0px;
+    color: aliceblue;
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+  }
+  
+  .status {
+    padding: 0%;
+    color: aliceblue;
+    margin: 0%;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .last-seen {
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(65, 94, 120);
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-details {
+    font-family: sans-serif;
+    color: aliceblue;
+  }
+
+  .location {
+    padding: 0;
+    margin: 0;
+    margin-top: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
